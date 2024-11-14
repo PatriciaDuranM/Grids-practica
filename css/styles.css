@@ -26,4 +26,69 @@ ul{
 body{
     font-family: sans-serif;
     margin: 0;
+    background-color: rgb(131, 131, 131);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: 50px 50px 50px;
+}
+
+
+
+.box{
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+
+.box1{
+    background-color: yellow;
+    grid-column: 1/4;
+}
+
+.box2{
+    background-color: rgb(255, 94, 0);
+    grid-column: 4/11;
+}
+.box3{
+    background-color: rgb(209, 40, 28);
+    grid-column: 1/2;
+    
+}
+.box4{
+    background-color: rgb(212, 44, 80);
+    grid-column: 2/5;
+    
+}
+.box5{
+    background-color: rgb(187, 42, 168);
+    grid-column: 5/6;
+}
+.box6{
+background-color: rgb(137, 47, 255);
+grid-column: 6/11;
+    
+}
+.box7{
+    background-color: rgb(71, 11, 139);
+    grid-column: 1/4;
+    
+}
+.box8{
+    background-color: rgb(29, 40, 189);
+    grid-column: 4/6;
+    
+}
+.box9{
+    background-color: rgb(85, 185, 216);
+    grid-column: 6/7;
+    
+}
+.box10{
+    background-color: rgb(85, 216, 118);
+    grid-column: 7/11;
+    
 }
